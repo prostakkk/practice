@@ -14,7 +14,6 @@ org\example\services\implement\RoleServiceImpl.class
 org\example\dao\implement\CountryDaoImpl.class
 org\example\entities\Room.class
 org\example\services\implement\BookingServiceImpl.class
-org\example\config\HibernateConfig.class
 org\example\dao\HotelDao.class
 org\example\dao\implement\RoomDaoImpl.class
 org\example\services\implement\CountryServiceImpl.class

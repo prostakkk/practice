@@ -1,6 +1,5 @@
 package org.example.controllers;
 
-import jakarta.transaction.Transactional;
 import org.example.entities.User;
 import org.example.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +17,7 @@ public class UserController {
     private UserService userService;
 
     @GetMapping()
-    @Transactional
+
     public String showAll(Model model) {
         List<User> users = userService.getUsers();
         model.addAttribute("users", users);

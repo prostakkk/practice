@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="travelAgency" uuid="dcb76100-bad0-498e-b94a-c4d888100bc4">
+    <data-source source="LOCAL" name="travelAgency@localhost" uuid="d647fe28-3b2f-48b3-bcf3-df1af9b014a6">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/travelAgency</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="travelAgency/Hibernate" uuid="ee732ae6-6ea7-485f-8b61-9c22b0fdae58">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>Hibernate</remarks>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/travelAgency</jdbc-url>
     </data-source>
